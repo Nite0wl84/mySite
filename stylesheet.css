@@ -1,0 +1,76 @@
+body{
+	font-family: 'Quicksand', sans-serif, serif;
+	overflow-x: hidden;
+  color: #67759A;
+	margin-top: -20px;
+}
+
+/* header and nav info */
+#header-title {
+  font-family: 'Quicksand';
+  font-size: 35px;
+  margin-bottom: -100px;
+  color: #3D465C;
+  text-decoration: none;
+	margin-left: 30px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+	margin-top: -10px;
+}
+
+i,
+.fas fa-bars ::before, h1 {
+  color: #3d465c;
+	display: inline-block;
+}
+
+/* .close {
+  background-color: white;
+  border-radius: 25%;
+  width: auto;
+  height: auto;
+} */
+
+.nav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: white;
+	opacity: .9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: .6s;
+}
+.nav a{
+	display: inline-flex;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #3d465c;
+}
+.nav a:hover{
+	color: #fff;
+	transition: .4s;
+}
+.nav .close{
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px;
+}
+.slide a{
+	color: #000;
+	font-size: 36px;
+}
+#content{
+	padding: 20px;
+	transition: margin-left 0.6s;
+	overflow: hidden;
+}
